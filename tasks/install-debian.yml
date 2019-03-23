@@ -1,7 +1,7 @@
 ---
 - name: Add peek PPA
   become: true
-  apt-repository:
+  apt_repository:
       repo: ppa:peek-developers/stable
       state: present
       update_cache: true
