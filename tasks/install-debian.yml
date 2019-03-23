@@ -1,14 +1,14 @@
 ---
 - name: Add peek PPA
-  become: yes
+  become: true
   apt-repository:
       repo: ppa:peek-developers/stable
       state: present
-      update_cache: yes
+      update_cache: true
 - name: Install peek
-  become: yes
+  become: true
   apt:
       name: peek
       state: present
-      update_cache: yes
+      update_cache: true
       cache_valid_time: 86400
