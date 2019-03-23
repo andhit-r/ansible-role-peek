@@ -1,0 +1,6 @@
+---
+
+- import_tasks: install-debian.yml
+  when:
+      - not peek_install_from_source
+      - ansible_os_family == 'Debian'
