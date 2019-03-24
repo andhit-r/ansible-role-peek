@@ -1,0 +1,16 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: andhit-r
+  description: peek
+  company: "OpenSynergy Indonesia"
+  license: "GPL-2"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+  galaxy_tags:
+    - graphics
