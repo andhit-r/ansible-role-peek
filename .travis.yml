@@ -16,8 +16,8 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ${TRAVIS_BUILD_DIR} opnsynid.$ROLE_NAME
-  - cd opnsynid.$ROLE_NAME
+  - mv ${TRAVIS_BUILD_DIR} open_synergy.$ROLE_NAME
+  - cd open_synergy.$ROLE_NAME
 
 script:
   # Run tests.

@@ -2,6 +2,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: peek
   author: andhit-r
   description: peek
   company: "OpenSynergy Indonesia"
