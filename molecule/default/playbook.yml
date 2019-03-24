@@ -13,4 +13,4 @@
       changed_when: false
 
   roles:
-    - role: opnsynid.peek
+    - role: open_synergy.peek
